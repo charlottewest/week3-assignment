@@ -1,0 +1,44 @@
+.airbnb-grid {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: repeat(3, 1fr);
+  border: 1px solid #DCDCDC;
+}
+
+div.airbnbSection {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+img.airbnbImg {
+  width: 100%;
+  max-width: 400px;
+  height: 300px;
+  object-fit: fill;
+  grid-column: 1 / span 2;
+  grid-row: 1;
+}
+
+span.airbnbTitle {
+  font-size: 15px;
+  grid-column: 1 / span 2;
+  grid-row: 2;
+}
+
+button.airbnbBookingButton {
+  font-size: 15px;
+  max-width: 80px;
+  grid-column: 2;
+  grid-row: 3;
+  justify-self: end;
+}
+
+span.airbnbCost {
+  font-size: 15px;
+  grid-column: 1;
+  grid-row: 3;
+}

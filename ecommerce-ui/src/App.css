@@ -1,0 +1,16 @@
+div.container {
+  padding: 80px;
+}
+
+h1.airbnbSectionHeader {
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+div.shoppingCartContainer {
+  padding: 50px;
+}
+
+div.availablePropertiesContainer {
+  padding: 50px;
+}

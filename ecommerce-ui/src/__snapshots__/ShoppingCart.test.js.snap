@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`shallow renders 1`] = `
+<div
+  class="shoppingCart"
+>
+  <ul>
+    <li>
+      <span>
+        Centrally-located Manhattan studio
+      </span>
+      <button>
+        Delete
+      </button>
+    </li>
+    <li>
+      <span>
+        Denver apartment outside Union Station
+      </span>
+      <button>
+        Delete
+      </button>
+    </li>
+    <li>
+      <span>
+        Quaint 3-bedroom home in Gamla stan
+      </span>
+      <button>
+        Delete
+      </button>
+    </li>
+  </ul>
+  <div
+    class="totalPayment"
+  >
+    Total payment due: $
+  </div>
+</div>
+`;

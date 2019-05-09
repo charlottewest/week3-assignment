@@ -1,0 +1,108 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`shallow renders 1`] = `
+<div
+  class="App"
+>
+  <div
+    class="shoppingCartContainer"
+  >
+    <h2>
+      Shopping Cart
+    </h2>
+    <div
+      class="shoppingCart"
+    >
+      <ul />
+      <div
+        class="totalPayment"
+      >
+        Total payment due: $0
+      </div>
+    </div>
+  </div>
+  <hr />
+  <div
+    class="availablePropertiesContainer"
+  >
+    <h2>
+      Available Properties
+    </h2>
+    <div>
+      <div
+        class="airbnbSection"
+      >
+        <div
+          class="airbnb-grid"
+        >
+          <img
+            class="airbnbImg"
+            src="https://images.unsplash.com/photo-1490806230066-f7e6f7bf5052?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2ca889535ea01f912f94ac4ddf0034e0&auto=format&fit=crop&w=500&q=80"
+          />
+          <span
+            class="airbnbTitle"
+          >
+            Centrally-located Manhattan studio
+          </span>
+          <span
+            class="airbnbCost"
+          >
+            $105
+          </span>
+          <button
+            class="airbnbBookingButton"
+          >
+            Book
+          </button>
+        </div>
+        <div
+          class="airbnb-grid"
+        >
+          <img
+            class="airbnbImg"
+            src="https://images.unsplash.com/photo-1519424187720-db6d0fc5a5d2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=19f783ae564d7c6da4777cde1a84c1c9&auto=format&fit=crop&w=500&q=80"
+          />
+          <span
+            class="airbnbTitle"
+          >
+            Denver apartment outside Union Station
+          </span>
+          <span
+            class="airbnbCost"
+          >
+            $130
+          </span>
+          <button
+            class="airbnbBookingButton"
+          >
+            Book
+          </button>
+        </div>
+        <div
+          class="airbnb-grid"
+        >
+          <img
+            class="airbnbImg"
+            src="https://images.unsplash.com/photo-1495136568018-11a54caad6b5?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b4d19de84a578b1175e85e0811f41c97&auto=format&fit=crop&w=500&q=80"
+          />
+          <span
+            class="airbnbTitle"
+          >
+            Quaint 3-bedroom home in Gamla stan
+          </span>
+          <span
+            class="airbnbCost"
+          >
+            $230
+          </span>
+          <button
+            class="airbnbBookingButton"
+          >
+            Book
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
